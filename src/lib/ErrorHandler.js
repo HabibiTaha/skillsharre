@@ -18,6 +18,6 @@ export const getErrorMessage = (errMessage)=>{
         case "auth/too-many-requests":
             return "Please try again later"
         default:
-            return "An unknown error occurred."
+            return "Too Many request, Please slow down and try again later"
     }
 }
